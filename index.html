@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="canonical" href="https://ernestasbaltinas.github.io/AnimalsSay/" />
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <div class="content-middle">
+            <div class="d-flex justify-content-center flex-wrap">
+                <div class="box">
+                    <div class="animal bear" onclick="play('bear')"></div>
+                </div>
+                <div class="box">
+                    <div class="animal cow" onclick="play('cow')"></div>
+                </div>
+                <div class="box">
+                    <div class="animal dog" onclick="play('dog')"></div>
+                </div>
+                <div class="box">
+                    <div class="animal cat" onclick="play('cat')"></div>
+                </div>
+                <div class="box">
+                    <div class="animal duck" onclick="play('duck')"></div>
+                </div>
+                <div class="box">
+                    <div class="animal donkey" onclick="play('donkey')"></div>
+                </div>
+                <div class="box">
+                    <div class="animal elephant" onclick="play('elephant')"></div>
+                </div>
+                <div class="box">
+                    <div class="animal lion" onclick="play('lion')"></div>
+                </div>
+                <div class="box">
+                    <div class="animal chick" onclick="play('chick')"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <audio>  Your browser does not support the audio element.</audio>
+    <audio id="soundBear"><source src="/AnimalsSay/assets/sounds/bear.mp3" type="audio/mpeg"></audio>
+    <audio id="soundCow"><source src="/AnimalsSay/assets/sounds/cow.mp3" type="audio/mpeg"></audio>
+    <audio id="soundDog"><source src="/AnimalsSay/assets/sounds/dog.mp3" type="audio/mpeg"></audio>
+    <audio id="soundCat"><source src="/AnimalsSay/assets/sounds/cat.mp3" type="audio/mpeg"></audio>
+    <audio id="soundDuck"><source src="/AnimalsSay/assets/sounds/duck.mp3" type="audio/mpeg"></audio>
+    <audio id="soundDonkey"><source src="/AnimalsSay/assets/sounds/donkey.mp3" type="audio/mpeg"></audio>
+    <audio id="soundElephant"><source src="/AnimalsSay/assets/sounds/elephant.mp3" type="audio/mpeg"></audio>
+    <audio id="soundLion"><source src="/AnimalsSay/assets/sounds/lion.mp3" type="audio/mpeg"></audio>
+    <audio id="soundChick"><source src="/AnimalsSay/assets/sounds/chick.mp3" type="audio/mpeg"></audio>
+    <script src='app.js'></script>
+</body>
+</html>
