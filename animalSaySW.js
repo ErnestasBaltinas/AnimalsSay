@@ -1,4 +1,4 @@
-const cacheName = 'as-cache-v2';
+const cacheName = 'as-cache-v3';
 
 const staticAssets = [
   '/AnimalsSay/',
